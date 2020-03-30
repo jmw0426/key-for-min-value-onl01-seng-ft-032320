@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   if
-    !name_hash.max_by{|v| v}
+    name_hash.max_by{|k,v| v}
    return "#{v}"
   
   else name_hash.length == 0

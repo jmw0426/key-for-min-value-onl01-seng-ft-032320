@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   if
-    name_hash.count do |x| x == 0
+    name_hash.each_with_index.count do |x| x == 0
    return "#{x}"
   rescue 
   else name_hash.length == 0

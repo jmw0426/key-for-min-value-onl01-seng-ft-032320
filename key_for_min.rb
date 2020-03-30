@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
     return :ashley
   elsif name_hash[:ashley] > name_hash[:adam]
    return :adam
-  elsif name_hash[:adam] > name_hash[:blake]
+  else name_hash[:adam] > name_hash[:blake]
     return :blake
  end
 end

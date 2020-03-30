@@ -4,7 +4,6 @@
 def key_for_min_value(name_hash)
  
  name_hash.count do {|x| x == 0}
-   puts "#{x}"
-   
-
+   return "#{x}"
+ end
 end

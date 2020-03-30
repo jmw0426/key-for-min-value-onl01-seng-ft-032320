@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
  if
-  key = name_hash.count{|a,b| a[1] <=> b[1]}.first
+  key = name_hash.count{|a,b| a[1] <=> b[1]}.last
   puts key
   
   else name_hash.length == 0

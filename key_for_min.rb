@@ -9,3 +9,5 @@ def key_for_min_value(name_hash)
     return :mad
  end
 end
+
+{:blake => 500, :ashley => 2, :adam => 1}

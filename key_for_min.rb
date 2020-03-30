@@ -3,8 +3,8 @@
 
 def key_for_min_value(name_hash)
   if
-    name_hash.each_with_index.count do |x| x == 0
-   return "#{x}"
+    !name_hash.max_by{|k,v| v}
+   return "#{v}"
   rescue 
   else name_hash.length == 0
    return nil
